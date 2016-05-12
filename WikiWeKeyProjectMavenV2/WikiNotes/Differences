@@ -1,0 +1,14 @@
+1. Our code does not allow blanklines within blockquotes, instead if the line after the blockquote is marked for blockquote (which under normal Markdown is required to be part of the same blockquote) it renders it as a seperate blockquotes. This only impacts the underlying HTML, not how the text appears
+2. Our code does not allow blank lines within lists. For single layer list this does not impact how the list appears, just the underlying HTML. But for nested lists, it causes the list after the blankline to be  part of the top layer
+3. We did not implement the feature that allows extra paragraphs to be placed inside a list by indenting them 4 times
+4. **FEATURE** daringfireball only allows 3 layers of lists, ours allows unlimited nesting.
+5. daringfireball allow nested [ ] inside link text show, ours does not.  
+6. Not sure we caught all the automatic escapes, daringfireball only mentions & and < but there might be more that are not mentioned in the documentation
+7. Our code renders **text__text__text** as all bold (it nests the bold HTML). This appears to be the behavior of GitHub as well, but daringfireball renders it the same as **text_text_text**, it converts the inner nesting to italic marks.
+8. The following was not implemented:
+  1. code (not mentioned as required)
+  2. backslash escapes (not mentioned as required, but an important feature we should add)
+  3. images (not required)
+  4. in line HTML (not required)
+9. Work in Progress - Should have line breaks implemented before submission but not ready to show.
+

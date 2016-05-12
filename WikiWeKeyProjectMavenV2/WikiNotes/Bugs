@@ -1,0 +1,15 @@
+1. In some cases does not convert  bold marks to italic when needed:
+**text*
+2. In some circumstances does not use correct * to close italics 
+*text **text should have used second*
+3. With automatic links the last ">" is not removed:
+<http://www.google.com>
+4. Don't know why the user would do this, but one can place nested link starts to get this behavior:
+<http<http://www.google.com>
+5. EmphasisMarks within automaticLink causes duplication of text
+*text <http://*link>
+6. Preview occasionally breaks such that text is not interpreted properly, saving or restarting preview tends to fix this.
+7. Links not working for filepaths
+8. Crashes if filepath given in a link is invalid
+9. New bug that occured in recent refactoring ~~ will close a bold mark
+10. New bug that occured in recent refactoring: Marks are not removed from codeblocks: there is probably a typo in recognition sequence

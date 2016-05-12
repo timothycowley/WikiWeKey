@@ -1,0 +1,56 @@
+#Demo of features
+#header1
+##header2
+###header3
+####header 4
+#####header 5
+######header 6
+#######header 7 (no such thing)
+# header closes removed regardless of number ############################
+paragraphs ~~with markdown~~ **marks  that overlap and spread
+over *multiple** lines*
+
+##Lists
+1. lists that are ordered
+  * unordered
+   + and nested
+    - with various start marks
+    1. and containing 
+#headers 
+    2. blockquotes
+> see here
+> etc
+  * part of unordered list
+131. part of ordered list
+
+ ###Block Quotes
+>blockquotes
+>> that are nested
+can *span* multiple lines
+>>>multiple **nestings**
+>>>#with header
+and other elements
+
+    code blocks
+    more code blocks
+    
+
+
+    blank lines allowed in code blocks
+
+Links in the middle of a line that can be to anything including file paths 
+[Bugs]("C:\Users\Tim\Desktop\All Files\COMPUTER SCIENCE\aCS5500 MSD\GIT\Tim\WikiWeKey\WikiWeKeyProjectMavenV2\WikiNotes\Bugs")
+
+[Bugs]("DC:\Users\Tim\Desktop\All Files\COMPUTER SCIENCE\aCS5500 MSD\GIT\Tim\WikiWeKey\WikiWeKeyProjectMavenV2\WikiNotes\Bugs33")
+Links to websites [CNN](http://www.cnn.com)
+
+automatic links to websites <http://www.cnn.com>
+
+horizontal rules
+***
+*   *         *
+- - -                   ---------------------
+____ ___   __ _ _
+
+
+
