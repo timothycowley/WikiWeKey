@@ -1,21 +1,21 @@
-# GRADE 
-270/310
-
-
 # WikiWeKey
 Project Repo for team WikiWeKey
+
 
 ## Description
 A wiki markup interpreter, editor, and GUI in the wiki markdown language. For the 2015 summer 1 term of 
 Managing Software Development (begining of May to end of June)
+
+# NOTE
+There are many wiki interperters already out there that are much better than this one and I see no reason to reinvent the wheel. For that reason I won't be updating this project and recomend you use one of the other ones if you came here looking for a wiki interpreter. Otherwise, it's a respectable given that it was a part time effort of three CS students over less than 2 months. It work well but lacks a few features. These and known bugs are documented below. Feel free to play with it or build upon the code as you like. 
 
 # Scrum Board
 https://trello.com/b/qEACcDDA
 
 ### 1. Contact Information:
 **Name:** Tim Cowley **Email:**  timothycowley@gmail.com   
-**Name:** Sneha Nagrikar **Email:**  snagrikar358@gmail.com  
-**Name:** Hu Po-An   **Email:**  hu.po@husky@neu.edu  
+**Name:** Sneha Nagrikar **Email:**   ...
+**Name:** Hu Po-An   **Email:**   ...
 
 ----
 ### 2. Links to Materials:
